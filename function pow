@@ -1,6 +1,6 @@
 function pow(x , y){
   let product = 1;
-  for (i = 1; i <= y ; i++){
+  for (let i = 1; i <= y ; i++){
     product *= x;
     console.log('intermediate result '+ product)
 }
