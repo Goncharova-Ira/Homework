@@ -1,7 +1,7 @@
 function checkProbabilityTheory(count) {
     let countEvenNumber = 0
     let countOddNumber = 0
-    for (i = 1; i <= count; i++) {
+    for (let i = 1; i <= count; i++) {
         rnd = Math.round(100 + Math.random() * (1000 - 100));
         console.log('згенероване число = ' + rnd);
         if (rnd % 2 === 0) {
